@@ -1,0 +1,45 @@
+h1  {
+            font-family: fantasy;
+            text-indent: 70px;
+            letter-spacing: 6px;
+            text-decoration: dashed;
+            line-height: 0.9;
+            text-shadow: 2px 2px yellow;
+        }
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    width: 100%;
+    background-color: #ffffff;
+    color: red;
+            font-family: fantasy;
+            text-indent: 50px;
+            letter-spacing: 5px;
+        }
+
+        .ClasseMaiuscula 
+            text-transform: uppercase;
+            color: crimson;
+        }
+h3 {
+            font-family: fantasy;
+            text-indent: 500px;
+            letter-spacing: -1px;
+        }
+
+        .ClasseMaiuscula {
+            text-transform: uppercase;
+            color: crimson;
+        }
+.button {
+  background-color: #4CAF50; /* Pink */
+  border: none;
+  color: pink;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

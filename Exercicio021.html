@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício do slide 34 </title>
+</head>
+
+<body>
+   <form action="http://www.paginadestino.php" method="GET"> 
+        <fieldset>
+            <p>
+                <legend> Dados pessoais </legend>
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" />
+                </p>
+                <p>
+                    <label for="endereco ">E-mail</label>
+                    <input type="text" id="txtEndereco ">
+                </p>
+	<p>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+
+	</p>
+
+                <p>
+                    <label for="state">Profissão : </label>
+                    <select>
+                        <option value="1">Administrador</option>
+                        <option value="2">Advogado</option>
+                        <option value="3">Matemático</option>
+                        <option value="4">Professor</option>
+                        <option value="5">Analista de Sistemas</option>
+                        <option value="6">Médico</option>
+                    </select>
+		  
+                   </p>
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Dados profissionais </legend>
+            Natureza do cargo .
+            <p>
+                <input type="checkbox" name="chkLinguagens" value="1">Administrativo
+                <input type="checkbox" name="chkLinguagens" value="2">Finaceiro
+                <input type="checkbox" name="chkLinguagens" value="3">Gerência
+                <input type="checkbox" name="chkLinguagens" value="4">Finaceiro
+                <input type="checkbox" name="chkLinguagens" value="5"> Juridico
+            </p>
+
+
+            <p>
+                Área de interesse
+            <p>
+                <input type="checkbox" name="chkLinguagens" value="1">ADM
+                <input type="checkbox" name="chkLinguagens" value="2">Economia
+                <input type="checkbox" name="chkLinguagens" value="3">Negócios
+                <input type="checkbox" name="chkLinguagens" value="4">Finanças
+                <input type="checkbox" name="chkLinguagens" value="5">Legislação
+            </p>
+          
+          <br> Mini-curriculo: <textarea name="Mini -curriculo " id="" cols="30" rows="10"></textarea>
+        
+
+        </fieldset>
+        <div>
+            <button type="reset">Enviar</button> 
+	    <button type="reset">Limpar </button>
+        </div>
+        
+    </form>
+</body>
+
+</html>
